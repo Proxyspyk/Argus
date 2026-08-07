@@ -1,0 +1,23 @@
+[project]
+name = "argus"
+version = "0.1.0"
+description = "Argus - scanner que cruza componentes do sistema Linux com CVEs, CVSS e EPSS para priorizar riscos de escalada de privilégio."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "requests>=2.31.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4.0", "pytest-mock>=3.12.0"]
+
+[project.scripts]
+argus = "argus.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["argus*"]
