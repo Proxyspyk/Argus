@@ -1,3 +1,7 @@
+[![tests](https://github.com/Proxyspyk/Argus/actions/workflows/tests.yml/badge.svg)](https://github.com/Proxyspyk/Argus/actions/workflows/tests.yml)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![python](https://img.shields.io/badge/python-3.10%2B-blue)](pyproject.toml)
+
 # Argus
 
 **Cem olhos, nenhum descanso.** Na mitologia grega, Argus Panoptes era o
